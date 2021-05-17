@@ -10,7 +10,7 @@
     font-size: 30px;
 }
 
-#menu a {
+a {
     display: block;
     padding: 3px;
     width: 30%;
@@ -19,12 +19,12 @@
     text-align:center;
   }
 
-  #menu a:link, #menu a:visited {
+  a:link, a:visited {
     color: white;
     text-decoration: none;
   }
   
-  #menu a:hover {
+  a:hover {
     background-color: #4082c4;
     color: #ffffff;
   }
@@ -43,6 +43,29 @@ img{
     display: inline-block;
 }
 
+/*estilo animado de texto*/
+
+#recuadro1{
+    border-radius: 20px;  
+    background-color:rgba(247, 244, 96, 0.932);
+    width:200px;
+    padding:10px;
+    transition:width 0.5s,
+               background-color 3s;
+    -moz-transition:width 0.5s,
+                   background-color 3s;
+    -ms-transition:width 0.5s,
+                   background-color 3s;
+    -webkit-transition:width 0.5s,
+                       background-color 3s;
+    -o-transition:width 0.5s,
+                  background-color 3s;
+  }
+  
+  #recuadro1:hover{
+    width:300px;
+    background-color: rgb(0, 255, 98);
+  }
 
 /*esto es un condicional que dice que en pantallas de maximo 900px haga eso*/
 /* @media screen and (max-width:900px) {
