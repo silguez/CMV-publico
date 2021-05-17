@@ -1,11 +1,36 @@
 * {
     /* estilo por defecto para todos los elementos de la pagina*/
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-div.centrado{
+/*estilos de menu*/
 
+#menu summary {
+    font-size: 30px;
+}
+
+#menu a {
+    display: block;
+    padding: 3px;
+    width: 30%;
+    background-color: rgb(184, 183, 183);
+    border-bottom: 1px solid #eeeeee;
+    text-align:center;
+  }
+
+  #menu a:link, #menu a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #menu a:hover {
+    background-color: #4082c4;
+    color: #ffffff;
+  }
+
+  /*estilo galeria*/
+div.centrado{
     text-align:center;
 }
 
